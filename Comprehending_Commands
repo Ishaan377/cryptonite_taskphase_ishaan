@@ -1,0 +1,18 @@
+#Comprehending Commands
+
+##cat: not the pet, but the command
+
+I understood that the cat command reads the terminal input.
+
+i used cat flag to get the flag
+
+##catting absolute paths
+
+I used the absolue path of flag and found the flag by running this command: cat /flag
+
+##more catting practice
+
+found the flag using the absolute path and without cding into the file directory
+
+##grep for a needle in a haystack
+
