@@ -14,5 +14,31 @@ I used the absolue path of flag and found the flag by running this command: cat 
 
 found the flag using the absolute path and without cding into the file directory
 
-##grep for a needle in a haystack
+##grepping for a needle in a haystack
+
+here i lernt about the grep command that helps in searching for a certain string, given
+
+as an argument, in a file. After grepping for the string pwn.college i found the flag.
+
+##listing files
+
+In this lesson, i came across the listing files(ls) command. This command, when run,
+
+provides the list of files in the current directory. After using ls command in the 
+
+/challenge directory, i found the file containing flag
+
+##touching files
+
+I was told to create two files(/tmp/pwn and /tmp/college) to be able to run the
+
+/challenge/run file to get the flag. This was done by using the touch command which is used to create files.
+syntax: touch <file_name>\
+
+##removing files
+
+Just like touch, a command to create files, there exists a command to remove files, namely, rm
+
+Syntax: rm <file_name>
+Only after removing the file delete_me was i able to run the file /challenge/check to get the flag
 
