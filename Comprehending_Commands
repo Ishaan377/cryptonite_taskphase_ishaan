@@ -42,3 +42,22 @@ Just like touch, a command to create files, there exists a command to remove fil
 Syntax: rm <file_name>
 Only after removing the file delete_me was i able to run the file /challenge/check to get the flag
 
+##An Epic File System Quest
+
+First, navigate to the root directory by executing the cd / command.
+
+Next, run the ls command to display the files in the directory.
+
+Use the cat command to view the contents of a file, followed by cd to move into the specified directory.
+
+Repeat this sequence.
+
+For files with a time delay, use the ls command to display them.
+
+For hidden files, list them using the ls -a command.
+
+For files that are inaccessible or "trapped," list them with ls <directory>.
+
+Then, use the cat <directory>/<filename> command to reveal the next clue.
+
+After repeating this several times, you will eventually obtain the flag.
