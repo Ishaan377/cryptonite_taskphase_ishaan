@@ -85,6 +85,7 @@
       /challenge/hack | tee >(/challenge/the) >(/challenge/planet)
   
   ##split-piping stderr and stdout
+  
     In this challenge, I needed to redirect stdout to /challenge/planet and stderr to /challenge/the, while keeping them separate.
     I had to was combine  >(), 2>, and piping. The | operator normally links stdout to another program’s stdin, but the goal was to avoid mixing stdout and stderr.
     Commands:
