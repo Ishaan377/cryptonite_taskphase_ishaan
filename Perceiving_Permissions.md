@@ -547,3 +547,16 @@ hacker@permissions~permissions-setting-practice:~$ chmod u+r /flag
 hacker@permissions~permissions-setting-practice:~$ cat /flag
 pwn.college{giL09gGoCTabWE70g7816jEM8Nk.dNTM5QDL0kTN0czW}
 
+##The Suid Bit
+
+Learnt about the SUID permissions
+bit that allows the user to run
+program as the owner of that
+program's file. For this challenge
+I had to provide the SUID
+permission to the /challenge/getroot
+program and access the flag
+Commands:
+chmod u+s /challenge/getroot
+ls -l /challenge/getroot
+/challenge/getroot
