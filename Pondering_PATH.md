@@ -26,8 +26,15 @@ PATH=/challenge/more_commands/
 ##Adding Commands
 
 This was one of the toughest one so
-far... Had to search on yt to get the
-details.
+far... Had to search on yt to get the flag. First I had to link the
+bash script to the win script, so
+it can use the required commands.
+After that, I had to set the path,
+starting from my home directory, to
+the PATH where the win command was located. Then after running
+/challenge/run, the administration
+of root was given to me, and i was 
+able to use cat /flag.
 Commands:
 ln -s /usr/bin/bash ./win
 PATH=/home/hacker/:$PATH
@@ -39,8 +46,15 @@ cat /flag
 This was like the previous one, but
 even complicated. Again, had to use
 chatgpt to find this one out.
+Here I linked the bash to rm script,
+overwriting it's commands. Then 
+changed the path as before, making 
+sure the rm command is accessible.
+Then, when I ran the /challenge/run
+program, it searcher for rm, but rm 
+instead contained the commands to 
+provide me the flag.
 Commands:
-rm rm
 ln -s /usr/bin/bash ./rm
 PATH=/home/hacker/:$PATH
 /challenge/run
