@@ -46,4 +46,45 @@ Commands:
 <CTRL+Z>
 fg
 
+##Backgrounding Processes
+
+This was a good question i got an
+idea of Use the terminal to launch
+it, then suspend it, then
+background it with bg and launch
+another copy while the first is
+running in the background
+
+
+##Foregrounding Processes
+
+Similiar to the previous one, but 
+this time I had to Foreground the
+process using fg after backgrounding
+it.
+
+
+##Starting Backgrounding Processes
+
+Here, I learnt that it's not compulsory
+to suspend a process before running
+it in the background. It can be done
+by appending & to your command.
+Commands:
+/challenge/run &
+
+##Process Exit Codes
+
+You can check the exit status of
+a code using "echo $?". If value 0
+is returned, it means the
+previous command was successfully
+executed. For this challenge, I had
+to get the exit code and use that
+as an argument to get the flag.
+Commands:
+/challenge/get-code
+echo $?
+/challenge/submit-code <EXIT-CODE>
+
 
