@@ -1,6 +1,6 @@
-#Untangling Users
+# Untangling Users
 
-  ##Becoming Root with su
+  ## Becoming Root with su
   
     Here i learnt about the su(switch
     user) command which grants me the root
@@ -12,7 +12,7 @@
       <hack-the-planet>
       cat /flag
   
-  ##Other users with su
+  ## Other users with su
   
     By default, su provides access to root
     shell. But if a username is provided
@@ -23,7 +23,7 @@
       dont-hack-me
       /challenge/run
   
-  ##Cracking passwords
+  ## Cracking passwords
   
     For this challenge, i have to switch
     to user zardus using su command and
@@ -36,7 +36,7 @@
       aardvark
       /challenge/run
   
-  ##Using sudo
+  ## Using sudo
   
     In this challenge i learnt why sudo
     is more powerful than su and why
