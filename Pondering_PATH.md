@@ -1,6 +1,6 @@
-#Pondering PATH
+# Pondering PATH
 
-  ##The PATH variable
+  ## The PATH variable
   
     In this challenge, the /challenge/run
     command deletes the flag using rm.
@@ -11,7 +11,7 @@
       PATH=""
       /challenge/run
   
-  ##Setting PATH
+  ## Setting PATH
   
     In this challenge, the /challenge/run
     requires the win command to provide
@@ -23,7 +23,7 @@
       PATH=/challenge/more_commands/
       /challenge/run
   
-  ##Adding Commands
+  ## Adding Commands
   
     This was one of the toughest one so
     far... Had to search on yt to get the flag. First I had to link the
@@ -41,7 +41,7 @@
       /challenge/run
       cat /flag
   
-  ##Hijacking Commands
+  ## Hijacking Commands
   
     This was like the previous one, but
     even complicated. Again, had to use
