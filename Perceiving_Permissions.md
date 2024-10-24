@@ -1,6 +1,6 @@
-#Perceiving Permissions
+# Perceiving Permissions
 
-  ##Changing File ownership
+  ## Changing File ownership
   
     This challenge taught me how people
     prevent others from touching files
@@ -11,7 +11,7 @@
       chown hacker /flag
       cat /flag
   
-  ##Groups and Files
+  ## Groups and Files
   
     Learnt about Groups. Some files can
     be accessed by being part of the
@@ -24,7 +24,7 @@
       chgrp hacker /flag
       cat /flag
   
-  ##Fun with Group names
+  ## Fun with Group names
   
     For this challenge, my group name has
     been randomised. I had to use id
@@ -35,7 +35,7 @@
       chgrp grp19509 /flag
       cat /flag
   
-  ##Changing Permission
+  ## Changing Permission
   
     In this challenge, I learnt how to
     change permissions for a file.
@@ -44,7 +44,7 @@
       chmod o+r /flag
       cat /flag
   
-  ##Executable Files
+  ## Executable Files
   
     Similiar to the previous one, but this
     time I have to modify the permissions
@@ -55,7 +55,7 @@
       chmod u+x /challenge/run
       /challenge/run
   
-  ##Permission Tweaking Practice
+  ## Permission Tweaking Practice
   
     For this challenge, i had to follow a
     set of instructions, to eventually
@@ -321,7 +321,7 @@
     hacker@permissions~permission-tweaking-practice:~$ cat /flag
     pwn.college{UR7lbqZLYL3985ne9sFjyQzqiMx.dBTM2QDL0kTN0czW}
   
-  ##Permission Setting Practice
+  ## Permission Setting Practice
   
     Similiar to the previous one, but
     this time I have to set permissions
@@ -547,7 +547,7 @@
     hacker@permissions~permissions-setting-practice:~$ cat /flag
     pwn.college{giL09gGoCTabWE70g7816jEM8Nk.dNTM5QDL0kTN0czW}
   
-  ##The Suid Bit
+  ## The Suid Bit
   
     Learnt about the SUID permissions
     bit that allows the user to run
