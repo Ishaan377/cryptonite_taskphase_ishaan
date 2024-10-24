@@ -1,13 +1,13 @@
-#Shell Variables
+# Shell Variables
 
-  ##Printing Variables
+  ## Printing Variables
   
     Found the flag by printing the contents of variable
     FLAG using echo.
     Command:
       echo $FLAG
   
-  ##Setting Variables
+  ## Setting Variables
   
     Here I learn how to assign a value to a variable.
     I had to assign value COLLEGE to PWN in order to
@@ -15,7 +15,7 @@
     Command:
       PWN=COLLEGE
   
-  ##Multi_word Variables
+  ## Multi_word Variables
   
     I had to assign COLLEGE YEAH to PWN in order to get
     the flag. To assign multi-word values to variables
@@ -23,7 +23,7 @@
     Command:
       PWN="COLLEGE YEAH"
   
-  ##Exporting Variables
+  ## Exporting Variables
   
     For this challenge, I had to set values COLLEGE and
     PWN to PWN and COLLEGE respectively. Then I had to
@@ -33,12 +33,12 @@
       export PWN=COLLEGE
       /challenge/run
   
-  ##Printing Exported Variables
+  ## Printing Exported Variables
   
     This challenge taught me the use of the env command.
     The env command prints all the exported variables.
   
-  ##Reading Input
+  ## Reading Input
   
     I read the input from user to get the flag.
     This was done using the read command.
@@ -47,7 +47,7 @@
       OUTPUT: I HATE COLLEGE
       OUTPUT: <flag>
   
-  ##Reading Files
+  ## Reading Files
   
     For this challenge, I had to directly read the
     contents of a file to a variable.
