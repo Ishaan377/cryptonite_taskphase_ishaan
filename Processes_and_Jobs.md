@@ -1,6 +1,6 @@
-#Processes and Jobs
+# Processes and Jobs
 
-  ##Listing Processes
+  ## Listing Processes
   
     The /challenge/run file has been renamed. I am not allowed to
     ls into the directory. Hence to find the actual flag program,
@@ -9,7 +9,7 @@
       ps -aux
       /challenge/2239-run-25033
   
-  ##Killing Processes
+  ## Killing Processes
   
     For this challenge I had to kill sleep process to stop
     /challenge/dont_run from running, and then run /challenge/run
@@ -19,7 +19,7 @@
       kill 74
       /challenge/run
       
-  ##Interrupting Processes
+  ## Interrupting Processes
   
     I had to interrupt the processing of /challenge/run to get
     the flag
@@ -27,7 +27,7 @@
       /challenge/run
       <CTRL+C>
   
-  ##Suspending Processes
+  ## Suspending Processes
   
     To run the program /challenge/run I had to create another 
     copy of itself. To do so, i had to supend the first operation
@@ -37,7 +37,7 @@
       <CTRL+Z>
       /challenge/run
       
-  ##Resuming Processes
+  ## Resuming Processes
   
     To get the flag, I had to first run /challenge/run, then suspend
     it with <CTRL+Z> and then resume it through the fg command
@@ -46,7 +46,7 @@
       <CTRL+Z>
       fg
     
-  ##Backgrounding Processes
+  ## Backgrounding Processes
   
     This was a good question i got an
     idea of Use the terminal to launch
@@ -56,7 +56,7 @@
     running in the background
     
   
-  ##Foregrounding Processes
+  ## Foregrounding Processes
   
     Similiar to the previous one, but 
     this time I had to Foreground the
@@ -64,7 +64,7 @@
     it.
   
   
-  ##Starting Backgrounding Processes
+  ## Starting Backgrounding Processes
   
     Here, I learnt that it's not compulsory
     to suspend a process before running
@@ -73,7 +73,7 @@
     Commands:
       /challenge/run &
   
-  ##Process Exit Codes
+  ## Process Exit Codes
   
     You can check the exit status of
     a code using "echo $?". If value 0
