@@ -1,6 +1,6 @@
-#Practicing Piping
+# Practicing Piping
 
-  ##Redirecting Output
+  ## Redirecting Output
   
     As the name suggests, This challenge is about
     redirecting output into a file. While "echo hi"
@@ -10,14 +10,14 @@
     I had to redirect PWN from "echo PWN" to the
     file COLLEGE.
   
-  ##Redirecting more output
+  ## Redirecting more output
   
     Similiar to the previous one, but this time, i
     had to redirect the output of /challenge/run to
     myflag to obtain the flag. Also taught the difference
     between output given over stdout and stderr.
   
-  ##Appending output
+  ## Appending output
   
     When we use > character to redirect output to
     a file, it truncates the file and overwrites it
@@ -26,7 +26,7 @@
     half of the flag to /home/hacker/the-flag while running
     the /challenge/run program.
   
-  ##Redirecting 
+  ## Redirecting 
   
     This challenge explains the > character in detail.
     I learnt about the file descriptor numbers and
@@ -38,7 +38,7 @@
       /challenge/run > myflag 2>instructions
       cat myflag
   
-  ##Redirecting input
+  ## Redirecting input
   
     Learnt about the < character, which redirects input
     from files. For this challengge i had to redirect
@@ -46,13 +46,13 @@
     and then redirect input from PWN to the
     /challenge/run program
   
-  ##Grepping stored results
+  ## Grepping stored results
   
     I redirected the output of the command "/challenge/run" 
     to ">/tmp/data.txt" using >. After that, I ran 
     "grep pwn.college /tmp/data.txt" to extract the flag.
   
-  ##Grepping live outputs
+  ## Grepping live outputs
   
     Learnt about the pipe character(|)
     Eliminates the requirement of a file to store output,
@@ -62,7 +62,7 @@
     Commands:
       /challenge/run | grep pwn.college
   
-  ##Grepping errors
+  ## Grepping errors
   
     Similiar to the previous one, but this time,
     I had to grep from the stderr of /challenge/run
@@ -70,21 +70,21 @@
     Command:
       /challenge/run 2>& 1 | grep pwn.college
   
-  ##Duplicating piped data with tee
+  ## Duplicating piped data with tee
   
     I used "/challenge/pwn | tee t | /challenge/college" 
     to pipe "/challenge/pwn" to "/challenge/college"
     but intercepted it by using tee t , then i used cat t to get the secret value
     Then i used "/challenge/pwn --secret [kCCjr_M0] | tee tmp | /challenge/college" to get the flag
   
-  ##Writing to multiple programs
+  ## Writing to multiple programs
   
     I used the "/challenge/hack" command and duplicated its 
     output as an input to "/challenge/the" and "/challenge/planet"
     Commands:
       /challenge/hack | tee >(/challenge/the) >(/challenge/planet)
   
-  ##split-piping stderr and stdout
+  ## split-piping stderr and stdout
   
     In this challenge, I needed to redirect stdout to /challenge/planet and stderr to /challenge/the, while keeping them separate.
     I had to was combine  >(), 2>, and piping. The | operator normally links stdout to another program’s stdin, but the goal was to avoid mixing stdout and stderr.
