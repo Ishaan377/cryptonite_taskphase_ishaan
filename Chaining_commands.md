@@ -1,6 +1,6 @@
-#Chaining Commands
+# Chaining Commands
 
-  ##Chaining with Semicolons
+  ## Chaining with Semicolons
   
     Here i learnt how to chain multiple
     commands using the semicolon. For
@@ -8,7 +8,7 @@
     /challenge/pwn and /challenge/college
     to get the flag.
   
-  ##Your First Shell Script
+  ## Your First Shell Script
   
     To avoid confusion from chaining
     multiple commands together, we can
@@ -21,7 +21,7 @@
       echo "/challenge/college" >> x.sh
       bash x.sh
   
-  ##Redirecting Script Output
+  ## Redirecting Script Output
   
     Similiar to the previous one, except
     for this challenge, I had to pipe
@@ -33,7 +33,7 @@
       echo "/challenge/college" >> x.sh
       bash x.sh | /challenge/solve
   
-  ##Executable Shell Scripts
+  ## Executable Shell Scripts
   
     Here, I learnt that I can ignore
     the bash command if my script is
